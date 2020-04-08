@@ -1,0 +1,42 @@
+/*HERO BANNER */
+.heroBanner {
+    background-image: url("../images/myAvatar.png");
+    padding: 15vw 15vw 10vw 15vw;
+    font-size: 2.5em;
+    background-size: cover;
+    opacity: 0.85;
+    color:white;
+    font-family: 'Poppins';
+    font-weight: normal;
+/*add a relative position to the heroBanner 
+as it is the parent to the heroSearchBox and will
+allow the abosulte property to be applied */
+    display: block;
+    margin: 0px 30px 0px 30px;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-color: teal;
+
+
+}
+
+.photographer {
+    color:#41cadd;
+    font-family: 'Nunito';
+    font-weight: inherit;
+}
+
+.herotext3{
+    color:#b2b5ba;
+    font-family: 'Nunito';
+    font-weight: normal;
+    font-size: 0.5em;
+}
+
+
+.redot{
+
+    color:#ff6a7c;
+    font-size: 2em;
+}
+

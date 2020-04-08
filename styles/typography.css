@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Nunito';
+    font-weight: normal;
+    src: url("../fonts/Nunito/Nunito-Regular.ttf") format("truetype");
+  }
+
+@font-face {
+    font-family: 'Nunito';
+    font-weight: lighter;
+    src: url("../fonts/Nunito/Nunito-Light.ttf") format("truetype");
+  }
+
+@font-face {
+    font-family: 'Nunito';
+    font-weight: bold;
+    src: url("../fonts/Nunito/Nunito-Bold.ttf") format("truetype");
+  }
+@font-face {
+    font-family: 'Nunito';
+    font-weight: it;
+    src: url("../fonts/Nunito/Nunito-Italic.ttf") format("truetype");
+  }
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: normal;
+    src: url("../fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+  }
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: bold;
+    src: url("../fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+  }
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: medium;
+    src: url("../fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: 'Poppins';
+    font-weight: italic;
+    src: url("../fonts/Poppins/Poppins-Italic.ttf") format("truetype");
+  }
+
+h1{
+    color:black;
+    font-family: 'Poppins';
+    font-weight: medium;
+    font-size: 2em;
+    letter-spacing: 0.1rem;
+}
+
+.searchButton, .postButton{
+    font-family: 'Nunito';
+    font-weight: lighter;
+}
+
+.tags{
+    font-family: 'Nunito';
+}
+
+.banner {
+    color:black;
+    font-family: 'Poppins';
+    font-weight: medium;
+    font-size: 2em;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    padding: 70px;
+    background-color: #fff0e9;
+    margin:0px 30px 0px 30px;
+
+}
+
+nav a{
+    color:#4a4a4a;
+    font-family:'Nunito';
+    font-weight: normal;
+    padding-left: 20px;
+}
+
+.mainP {
+    color: var(--ptext);
+    font-family: 'Nunito';
+    font-weight: normal;
+}
+
+.continuereading{
+    color:#b2b5ba;
+    font-family: 'Nunito';
+    font-weight: normal;
+}
+
+.posteddate{
+    color:#b2b5ba;
+    font-family: 'Nunito';
+    font-weight: lighter;
+}
+
+h3 {
+    color:black;
+    font-family: 'Nunito';
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+li{
+    color:#4a4a4a;
+    font-family: 'Nunito';
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+

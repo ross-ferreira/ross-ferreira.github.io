@@ -1,0 +1,29 @@
+
+span {
+    display:grid;
+    grid-template-columns: 0.65fr 0.35fr;
+
+}
+
+
+aside{
+
+    padding: 10px 0px 0px 50px;
+}
+
+.recentposts,.recentcomments,.categories{
+    padding-top: 50px;
+}
+
+span{
+
+    padding: 80px 0px 300px 80px;
+}
+
+.posteddate{
+    padding: 50px 0px 25px 0px;
+}
+
+.mainP{
+    padding: 25px 0px 25px 0px;
+}

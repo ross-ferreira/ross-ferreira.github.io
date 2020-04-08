@@ -1,0 +1,127 @@
+ /* Minimum width */
+ /* Exact width 
+ @media (width: 500px) {
+    li {
+      background: red;
+      display: block;
+    }
+  }
+  */
+  
+  /* Maximum width
+  @media (max-width: 40rem) {
+    div {
+      border: 2px solid blue;
+    }
+  }
+   */
+
+   /* FOR SMALL SCREENS */
+@media (max-width:600px){
+
+    .photoGrid{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .photoGrid picture{
+        margin:5px;
+    }
+
+    .heroBanner {
+        background-size: 250px;
+        padding: 20vw 5vw 20vw 5vw;
+        font-size: 1em;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .socialIcon img{
+        width: 5px;
+        height: 5px;
+    }
+
+/* BLOG PAGE EDITS */
+
+.cardmain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+.posteddate{
+    padding: 10px 0px 10px 0px;
+}
+
+.cardP{
+    padding: 10px 0px 10px 0px;
+}
+
+.continuereading{
+    padding: 20px;
+}
+
+.tagsForCards{
+    padding: 5px 0px 5px 0px;
+}
+.cardHeading {
+    padding-bottom: 5px;
+}
+.card img {
+margin-top: 15px;
+}
+
+/*JELLY FISH ARCTICLE EDITS*/
+
+aside {
+    display: none;
+}
+
+
+.recentposts,.recentcomments,.categories{
+    padding-top: 25px;
+}
+
+span{
+
+    padding: 30px 30px 30px 30px;
+}
+
+.posteddate{
+    padding: 25px 0px 25px 0px;
+}
+
+.mainP{
+    padding: 25px 0px 25px 0px;
+}
+aside{
+
+    padding: 0px 0px 0px 0px;
+}
+
+.articleAside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*CONTACT FORM EDITS*/
+
+.contactForm{
+width: 80%;
+padding-left: 40px;
+}
+
+/* HEADINGS BANNERS NAV ETC EDITS*/
+
+h1, h2, .banner {
+
+    font-size: 1em;
+}
+
+.banner{
+    padding: 60px;
+    margin: 0px;
+}
+
+}

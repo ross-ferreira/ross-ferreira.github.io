@@ -1,0 +1,10 @@
+/* using CSS Variables
+;root means furtherst parent */
+
+:root {
+    --turq: #41cadd;
+    --peach: #fff0e9;
+    --hotpink: #ff6a7c;
+    --ptext: #4a4a4a;
+    --alttext: #b2b5ba;
+}

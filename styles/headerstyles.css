@@ -1,0 +1,66 @@
+header{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+    justify-content:space-between;
+      
+}
+
+nav ul {
+    align-self:flex-end;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+    padding: 5px;
+    align-items: center;
+}
+
+nav ul li{
+
+    padding: 10px;
+   
+}
+
+h1 {
+    padding: 30px;
+}
+
+.socialIcon2 {
+    display:inline-block;
+    background-color:#fff0e9;
+    border-radius: 100%;
+    border: none;
+    padding: 10px;
+
+
+}
+
+.socialIcon2 img{
+    display:block;
+    width: 15px;
+    height: 15px;
+}
+
+.socialIcon2:hover{
+    background-color:var(--hotpink);
+}
+
+.heroSearchBox{
+    /*align the div box in an absolute to the heroBanner Element
+    to allow it to move*/
+    /*position: absolute;
+    top:0px;
+    right:0px;*/
+    display: none;
+    
+
+}
+
+.socialIcon2:hover .heroSearchBox{
+    display: block;
+}
+    /* display block direct element 
+    whether it is an input or an .img
+    this will allow the property to fill the element */
+    
+}

@@ -1,0 +1,105 @@
+
+/*settings for individual image for articlePostImage*/
+
+.articlePostImage img{
+    display: block;
+    width: 100%;
+    height: 100%; 
+    /* NB!!!!!width and heights are 
+    needed to fill the block FULLY*/
+}
+
+
+
+/*settings for individual image for photoGrid*/
+.photoGrid img {
+    display: block;
+}
+
+.galleryImage{
+    position: relative;
+}
+
+.galleryImage figcaption {
+    display: none;
+    position: absolute;
+    bottom: 40px;
+    left:30px;
+}
+
+.galleryImage:hover figcaption{
+    display: block;
+}
+
+.galleryImage h4{
+
+    color: white;
+    padding-top: 20px;
+    font-family: 'Nuniton';
+    font-weight: bold;
+    font-size: 2em;
+}
+
+/*settings Grid Layout*/
+
+.photoGrid {
+        display: grid;
+        grid-template-rows: repeat(6, 0.4fr);
+        grid-template-columns: repeat(2, 0.4fr);
+        grid-gap: 50px;
+        grid-row-start:1;
+        grid-row-end: 7;
+        grid-column-start:1;
+        grid-column-end: 4;
+        margin: 50px;
+        justify-content: center;
+}
+
+/* you don't need to touch this */
+
+
+.photoGrid  figure {
+	object-fit: cover;
+	overflow: hidden;
+}
+.photoGrid  figure img {
+	display: block;
+	height: auto; width: 40vw;
+}
+
+/* you don't need to touch this */
+
+.penguin{
+    grid-row: 1 / 3; 
+}
+
+.jellies {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3; 
+}
+
+
+.bird {
+    grid-row: 3 / 5;
+    grid-column: 1 / 2; 
+}
+
+.zebra {
+	grid-row: 2 / 4; 
+}
+
+.snake {
+	grid-row: 4 / 5; 
+}
+
+.elephants {
+	grid-row: 5 / 7; 
+}
+
+.water-birds {
+	grid-row: 5 / 6; 
+}
+
+.turtle {
+	grid-row: 6 / 7; 
+}

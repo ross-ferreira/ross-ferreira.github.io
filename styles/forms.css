@@ -1,0 +1,34 @@
+.contactForm{
+    display: inline-block; 
+    padding-left: 60px;
+    width: 50%;
+}
+
+.contactForm label,.contactForm input, .contactForm textarea{
+    width: 100%;
+
+}
+
+.contactForm label{
+
+    padding-top: 20px;
+    padding-bottom: 5px;
+    display: block;
+    font-family: 'Nunito';
+    font-weight: normal;
+    font-size: 0.75em;
+}
+
+.contactForm textarea{
+
+    height: 200px;
+}
+
+.postButton{
+    margin-top: 20px;
+}
+
+.contactForm input, .contactForm textarea{
+    border: solid 1px #b2b5ba;
+}
+

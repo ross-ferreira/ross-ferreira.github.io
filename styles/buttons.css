@@ -1,0 +1,25 @@
+.searchButton,.postButton{
+    background-color: #ff6a7c;
+    color:white;
+    border:none;
+    padding: 5px 10px 5px 10px;
+}
+
+.tags{
+    background-color: #41cadd;
+    color:white;
+    border:none;
+    padding: 5px 10px 5px 10px;
+}
+
+
+.searchforminput{
+    border: solid black 1px;
+    border-color: #4a4a4a;
+    padding: 4px;
+}
+
+nav a:hover{
+    color:var(--hotpink);
+}
+

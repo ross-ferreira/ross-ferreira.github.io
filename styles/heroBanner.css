@@ -31,6 +31,11 @@ allow the abosulte property to be applied */
     font-family: 'Nunito';
     font-weight: normal;
     font-size: 0.5em;
+    text-align: right;
+}
+
+.herotext1,.herotext2,.herotext3{
+    text-align: right;
 }
 
 

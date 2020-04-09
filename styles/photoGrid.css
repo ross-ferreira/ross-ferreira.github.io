@@ -8,7 +8,21 @@
     /* NB!!!!!width and heights are 
     needed to fill the block FULLY*/
 }
+/* FOR CV IMAGES */
+.cv-doc{
+    /* text-align: center; */
+    width: 50vw;
+    height: auto;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
 
+.cv-cont{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
 
 
 /*settings for individual image for photoGrid*/

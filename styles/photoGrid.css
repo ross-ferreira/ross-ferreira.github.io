@@ -1,13 +1,18 @@
 
 /*settings for individual image for articlePostImage*/
 
-.articlePostImage img{
+.grid-im {
+	display: block;
+    height: 33vh; 
+    width: auto;
+}
+
+/* .articlePostImage img{
     display: block;
     width: 100%;
-    height: 100%; 
-    /* NB!!!!!width and heights are 
-    needed to fill the block FULLY*/
-}
+    height: 5vh; 
+}  */
+
 /* FOR CV IMAGES */
 .cv-doc{
     /* text-align: center; */
@@ -76,11 +81,7 @@
 	object-fit: cover;
 	overflow: hidden;
 }
-.grid-im {
-	display: block;
-    height: auto; 
-    width: 30vw;
-}
+
 
 /* you don't need to touch this */
 

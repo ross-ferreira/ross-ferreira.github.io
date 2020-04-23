@@ -11,6 +11,10 @@
     border:none;
     padding: 5px 10px 5px 10px;
 }
+.tags:hover{
+    color:black;
+    background-color: var(--hotpink);
+}
 
 
 .searchforminput{

@@ -4,13 +4,29 @@
     border:none;
     padding: 5px 10px 5px 10px;
 }
+.tags-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
+.tags-img{
+    max-width: 25px;
+    max-height: auto;
+    display: block;
+}
+.tags-img-cont{
+    overflow: hidden;
+}
 .tags{
     background-color: #41cadd;
     color:white;
     border:none;
     padding: 5px 10px 5px 10px;
+    font-size: 0.75em;
+    margin: 2px
 }
+
 .tags:hover{
     color:black;
     background-color: var(--hotpink);
@@ -49,6 +65,12 @@ nav a:hover{
     padding: 10px 20px 10px 20px;
     font-family: 'Nunito';
     font-weight: bold;
+    text-decoration: none;
 
 }
+
+.download-but:hover{
+    color:var(--hotpink);
+}
+
 
